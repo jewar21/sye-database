@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "datas_home",
+  "info": {
+    "singularName": "data-home",
+    "pluralName": "datas-home",
+    "displayName": "DataHome"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HomeCarousel": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

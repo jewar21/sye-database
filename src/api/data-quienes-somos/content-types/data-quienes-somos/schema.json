@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "datas_quienes_somos",
+  "info": {
+    "singularName": "data-quienes-somos",
+    "pluralName": "datas-quienes-somos",
+    "displayName": "DataQuienesSomos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

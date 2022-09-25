@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "data_tratamientos",
+  "info": {
+    "singularName": "data-tratamiento",
+    "pluralName": "data-tratamientos",
+    "displayName": "DataTratamiento"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

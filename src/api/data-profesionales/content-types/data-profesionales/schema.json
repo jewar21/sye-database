@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "datas_profesionales",
+  "info": {
+    "singularName": "data-profesionales",
+    "pluralName": "datas-profesionales",
+    "displayName": "DataProfesionales"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

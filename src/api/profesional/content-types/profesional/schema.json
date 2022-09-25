@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profesionales",
+  "info": {
+    "singularName": "profesional",
+    "pluralName": "profesionales",
+    "displayName": "Profesional"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imgPerfil": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Titulos": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
