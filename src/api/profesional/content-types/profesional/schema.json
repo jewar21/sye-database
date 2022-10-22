@@ -4,28 +4,45 @@
   "info": {
     "singularName": "profesional",
     "pluralName": "profesionales",
-    "displayName": "Profesional"
+    "displayName": "Profesional",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "imgPerfil": {
-      "allowedTypes": [
-        "images"
-      ],
+    "img": {
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
-    "Nombre": {
+    "nombre": {
       "type": "string",
       "required": true
     },
-    "Titulos": {
+    "diplomados": {
       "type": "richtext",
+      "required": false
+    },
+    "profesion": {
+      "type": "string",
       "required": true
+    },
+    "univerProfesion": {
+      "type": "string",
+      "required": true
+    },
+    "especializacion": {
+      "type": "string",
+      "required": false
+    },
+    "universidadEspe": {
+      "type": "string",
+      "required": false
     }
   }
 }
