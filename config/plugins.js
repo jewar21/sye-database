@@ -14,4 +14,15 @@ module.exports = ({ env }) => ({
         },
       },
     },
+    "vercel-deploy": {
+      enabled: true,
+      config: {
+        deployHook:
+          "https://api.vercel.com/v1/integrations/deploy/prj_WtNEkFrtRGD4uapzvIgDhyrlGrqz/zCbVExYEBR",
+        apiToken: "zLG4G23VQ9xvBN9m0a6Rni45",
+        appFilter: "sye-database",
+        teamFilter: "HWYC7C767q0saOvFPfKjjWFU",
+        roles: ["strapi-super-admin", "strapi-editor", "strapi-author"],
+      },
+    },
   });
